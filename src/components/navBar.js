@@ -1,13 +1,7 @@
-import {
-  Navbar,
-  Nav,
-  Container,
-  InputGroup,
-  FormControl,
-} from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { PlusCircle } from "react-bootstrap-icons";
 
-export default function NavBar({ handleAddShow, handleSearch }) {
+export default function NavBar({ handleAddShow }) {
   return (
     <Navbar bg="light" variant="light">
       <Container>
