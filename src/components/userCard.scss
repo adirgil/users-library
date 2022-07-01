@@ -1,0 +1,24 @@
+.card {
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 18rem;
+    margin: 0 10px 10px 0;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    .btn {
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .card-body {
+    display: grid;
+  }
+}

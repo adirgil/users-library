@@ -1,0 +1,29 @@
+.btn-label {
+  margin-left: 5px;
+}
+
+#users_library {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  .container {
+    padding: 0;
+    margin: 20px 0px 20px 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      display: unset;
+    }
+  }
+  .users-section {
+    display: flex;
+    flex-wrap: wrap;
+    .card-img-top{
+        width: 286px;
+        height: 286px;
+    }
+  }
+  .navbar-expand {
+    padding: 0;
+  }
+  
+}
